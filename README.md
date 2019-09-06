@@ -28,7 +28,7 @@ Hit 'q' to quit the program.
 
 
 ## Citation
-Please cite this paper in your publications if it helps your research.
+Please cite this paper in any publications that make use of this software.
 
 ```
 @article{chong2017detecting,
