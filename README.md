@@ -25,3 +25,4 @@ Hit 'q' to quit the program.
 ## Notes
 - Output eye contact score ranges [0, 1] and score above 0.9 is considered confident.
 - To further improve the result, smoothing the output is encouraged as it can help removing outliers caused by eye blinks, motion blur etc.
+- Code has been tested with PyTorch 0.4 and Python 2.7
