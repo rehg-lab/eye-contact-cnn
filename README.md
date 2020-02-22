@@ -2,6 +2,15 @@
 This repository provides a deep convolutional neural network model trained to detect moments of eye contact in egocentric view. The model was trained on over 4 millions of facial images of > 100 young individuals during natural social interactions, and achives an accuracy comaprable to that of trained clinical human annotators.
 
 
+## Libraries tested with this code base
+- PyTorch 0.4.0
+- opencv 4.0.0
+- numpy 1.16.2
+- PIL 5.3.0
+- pandas 0.23.4
+- dlib 19.13.0 (optional if you want face detection)
+
+
 ## To run
 ### on Webcam
 ```
@@ -14,7 +23,7 @@ python demo.py --video yourvideofile.avi
 ### on Demo Video
 Try this if you don't want to use dlib's face and instead test with pre-detected faces. 
 
-You can comment out the first line "import dlib" in demo.py.
+You can comment out the first line "import dlib" in demo.py if you didn't install dlib.
 
 Demo video is taken from [here](https://youtu.be/5wFyxihwQiI).
 
@@ -31,15 +40,6 @@ Hit 'q' to quit the program.
 - `-save_vis`: Saves the output as an avi video file.
 - `-save_text`: Saves the output as a text file (Format: [frame#, eye_contact_score]).
 - `-display_off`: Turn off display window.
-
-
-## Libraries that are used to develop and test this code base
-- PyTorch 0.4.0
-- opencv 4.0.0
-- numpy 1.16.2
-- PIL 5.3.0
-- pandas 0.23.4
-- dlib 19.13.0 (optional if you want face detection)
 
 
 ## Notes
