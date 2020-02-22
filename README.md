@@ -1,5 +1,5 @@
 # eye-contact-cnn
-This repository provides a deep convolutional neural network model trained to detect moments of eye contact in egocentric view. The model was trained on over 4 millions of facial images of > 100 young individuals during natural social interactions, and achives an accuracy comaprable to that of trained clinical human coders.
+This repository provides a deep convolutional neural network model trained to detect moments of eye contact in egocentric view. The model was trained on over 4 millions of facial images of > 100 young individuals during natural social interactions, and achives an accuracy comaprable to that of trained clinical human annotators.
 
 
 ## To run
