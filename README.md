@@ -13,8 +13,11 @@ python demo.py --video yourvideofile.avi
 ```
 ### on Demo Video
 Try this if you don't want to install dlib and test with pre-detected faces. 
-You can comment out the first line "import dlib" in demo.py
-Demo video is taken from [here](https://youtu.be/5wFyxihwQiI)
+
+You can comment out the first line "import dlib" in demo.py.
+
+Demo video is taken from [here](https://youtu.be/5wFyxihwQiI).
+
 I used this [face detector](https://github.com/natanielruiz/dockerface) to generate the face detection file.
 ```
 python demo.py --video demo_video.mp4 --face demo_face_detections.txt
