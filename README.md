@@ -8,7 +8,7 @@ This repository provides a deep convolutional neural network model trained to de
 - numpy 1.16.2
 - PIL 5.3.0
 - pandas 0.23.4
-- dlib 19.13.0 (optional if you want face detection)
+- dlib 19.13.0 (optional if you want live face detection)
 
 
 ## To run
