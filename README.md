@@ -12,7 +12,7 @@ python demo.py
 python demo.py --video yourvideofile.avi
 ```
 ### on Demo Video
-Try this if you don't want to install dlib and test with pre-detected faces. 
+Try this if you don't want to use dlib's face and instead test with pre-detected faces. 
 
 You can comment out the first line "import dlib" in demo.py.
 
