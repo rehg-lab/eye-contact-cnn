@@ -126,7 +126,6 @@ def run(video_path, face_path, model_weight, jitter, vis, display_off, save_text
 
             frame = Image.fromarray(frame)
             for b in bbox:
-                print(frame_cnt, b)
                 face = frame.crop((b))
                 img = test_transforms(face)
                 img.unsqueeze_(0)
