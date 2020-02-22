@@ -1,4 +1,5 @@
-import cv2, dlib
+import dlib
+import cv2
 import argparse, os, random
 import torch
 import torch.nn as nn
@@ -88,7 +89,8 @@ def run(video_path, face_path, model_weight, jitter, vis, display_off, save_text
         print("Error opening video stream or file")
         exit()
 
-    cnn_face_detector = dlib.cnn_face_detection_model_v1(CNN_FACE_MODEL)
+    if facemode == 'DLIB':
+        cnn_face_detector = dlib.cnn_face_detection_model_v1(CNN_FACE_MODEL)
     frame_cnt = 0
 
     # set up data transformation
@@ -124,6 +126,7 @@ def run(video_path, face_path, model_weight, jitter, vis, display_off, save_text
 
             frame = Image.fromarray(frame)
             for b in bbox:
+                print(frame_cnt, b)
                 face = frame.crop((b))
                 img = test_transforms(face)
                 img.unsqueeze_(0)

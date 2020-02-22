@@ -3,13 +3,21 @@ This repository provides a deep convolutional neural network model trained to de
 
 
 ## To run
-### Running on Webcam
+### on Webcam
 ```
 python demo.py
 ```
-### Running on Video
+### on Video
 ```
 python demo.py --video yourvideofile.avi
+```
+### on Demo Video
+Try this if you don't want to install dlib and test with pre-detected faces. 
+You can comment out the first line "import dlib" in demo.py
+Demo video is taken from [here](https://youtu.be/5wFyxihwQiI)
+I used this [face detector](https://github.com/natanielruiz/dockerface) to generate the face detection file.
+```
+python demo.py --video demo_video.mp4 --face demo_face_detections.txt
 ```
 
 Hit 'q' to quit the program.
@@ -22,7 +30,33 @@ Hit 'q' to quit the program.
 - `-display_off`: Turn off display window.
 
 
+## Libraries that are used to develop and test this code base
+- PyTorch 0.4.0
+- opencv 4.0.0
+- numpy 1.16.2
+- PIL 5.3.0
+- pandas 0.23.4
+- dlib 19.13.0 (optional if you want face detection)
+
+
 ## Notes
 - Output eye contact score ranges [0, 1] and score above 0.9 is considered confident.
 - To further improve the result, smoothing the output is encouraged as it can help removing outliers caused by eye blinks, motion blur etc.
-- Code has been tested with PyTorch 0.4 and Python 2.7
+
+
+## Citation
+Please cite this paper in any publications that make use of this software.
+
+```
+@article{chong2020,
+ title={Detection of eye contact with deep neural networks is as accurate as human experts},
+ url={osf.io/5a6m7},
+ DOI={10.31219/osf.io/5a6m7},
+ publisher={OSF Preprints},
+ author={Chong, Eunji and Clark-Whitney, Elysha and Southerland, Audrey and Stubbs, Elizabeth and Miller, Chanel and Ajodan, Eliana L and Silverman, Melanie R and Lord, Catherine and Rozga, Agata and Jones, Rebecca M and et al.},
+ year={2020}
+}
+```
+
+Link to the paper:
+[https://osf.io/5a6m7](https://osf.io/5a6m7)
