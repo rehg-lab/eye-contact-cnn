@@ -119,7 +119,16 @@ def run(video_path, face_path, model_weight, jitter, vis, display_off, save_text
             if facemode == 'DLIB':
                 dets = cnn_face_detector(frame, 1)
                 for d in dets:
-                    bbox.append([d.rect.left(),d.rect.top(),d.rect.right(),d.rect.bottom()])
+                    l = d.rect.left()
+                    r = d.rect.right()
+                    t = d.rect.top()
+                    b = d.rect.bottom()
+                    # expand a bit
+                    l -= (r-l)*0.2
+                    r += (r-l)*0.2
+                    t -= (b-t)*0.2
+                    b += (b-t)*0.2
+                    bbox.append([l,t,r,b])
             elif facemode == 'GIVEN':
                 if frame_cnt in df.index:
                     bbox.append([df.loc[frame_cnt,'left'],df.loc[frame_cnt,'top'],df.loc[frame_cnt,'right'],df.loc[frame_cnt,'bottom']])
