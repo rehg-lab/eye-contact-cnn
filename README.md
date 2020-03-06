@@ -1,8 +1,9 @@
 # eye-contact-cnn
 This repository provides a deep convolutional neural network model trained to detect moments of eye contact in egocentric view. The model was trained on over 4 millions of facial images of > 100 young individuals during natural social interactions, and achives an accuracy comaprable to that of trained clinical human annotators.
 
+![](teaser.gif)
 
-## Libraries tested with this code base
+## Libraries used in our experiment
 - PyTorch 0.4.0
 - opencv 4.0.0
 - numpy 1.16.2
@@ -12,27 +13,24 @@ This repository provides a deep convolutional neural network model trained to de
 
 
 ## To run
-### on Webcam
+### with a webcam
 ```
 python demo.py
 ```
-### on Video
+### on a video file
 ```
 python demo.py --video yourvideofile.avi
 ```
-### on Demo Video
-Try this if you don't want to use dlib's face and instead test with pre-detected faces. 
+### on our sample video
+Try this if you don't want to use dlib's face and instead test with pre-detected faces.
 
-You can comment out the first line "import dlib" in demo.py if you didn't install dlib.
+Comment out the first line of demo.py "import dlib" if you didn't install dlib.
 
-Demo video is taken from [here](https://youtu.be/5wFyxihwQiI).
-
-I used this [face detector](https://github.com/natanielruiz/dockerface) to generate the face detection file.
 ```
-python demo.py --video demo_video.mp4 --face demo_face_detections.txt
+python demo.py --video demo_video.avi --face demo_face_detections.txt
 ```
 
-Hit 'q' to quit the program.
+Demo video has been downloaded from [here](https://youtu.be/5wFyxihwQiI). I used this [face detector](https://github.com/natanielruiz/dockerface) to generate the face detection file.
 
 
 ## Flags
@@ -40,6 +38,7 @@ Hit 'q' to quit the program.
 - `-save_vis`: Saves the output as an avi video file.
 - `-save_text`: Saves the output as a text file (Format: [frame#, eye_contact_score]).
 - `-display_off`: Turn off display window.
+- Hit 'q' to quit the program.
 
 
 ## Notes
@@ -62,4 +61,4 @@ Please cite this paper in any publications that make use of this software.
 ```
 
 Link to the paper:
-[https://osf.io/5a6m7](https://osf.io/5a6m7)
+[here](https://nature-research-under-consideration.nature.com/users/37265-nature-communications/posts/60730-detection-of-eye-contact-with-deep-neural-networks-is-as-accurate-as-human-experts)
