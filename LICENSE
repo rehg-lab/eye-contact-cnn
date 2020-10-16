@@ -1,48 +1,57 @@
+GEORGIA TECH RESEARCH CORPORATION
 SOFTWARE LICENSE AGREEMENT
-ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERCIAL RESEARCH USE ONLY
+NONCOMMERCIAL RESEARCH USE ONLY
+EYE-CONTACT-CNN
 
-BY USING OR DOWNLOADING THE SOFTWARE, YOU ARE AGREEING TO THE TERMS OF THIS LICENSE AGREEMENT.  IF YOU DO NOT AGREE WITH THESE TERMS, YOU MAY NOT USE OR DOWNLOAD THE SOFTWARE.
+BY DOWNLOADING, INSTALLING OR USING THE SOFTWARE, YOU ARE AGREEING TO THE TERMS OF THIS LICENSE AGREEMENT.  IF YOU DO NOT AGREE WITH THESE TERMS, YOU MAY NOT DOWNLOAD, INSTALL OR USE THE SOFTWARE.
 
-This is a license agreement ("Agreement") between your academic institution or non-profit organization or self (called "Licensee" or "You" in this Agreement) and Georgia Institute of Technology (called "Licensor" in this Agreement).  All rights not specifically granted to you in this Agreement are reserved for Licensor. 
+This is a license agreement (“Agreement”) between your organization or self (called “Licensee” or “You” in this Agreement) and Georgia Tech Research Corporation (called “GTRC” in this Agreement), a nonprofit corporation organized and existing under the laws of the State of Georgia, with offices at 926 Dalney Street, NW, Atlanta, GA 30332-0415.  All rights not specifically granted to Licensee in this Agreement are reserved for GTRC.
 
-RESERVATION OF OWNERSHIP AND GRANT OF LICENSE: 
-Licensor retains exclusive ownership of any copy of the Software (as defined below) licensed under this Agreement and hereby grants to Licensee a personal, non-exclusive, 
-non-transferable license to use the Software for noncommercial research purposes, without the right to sublicense, pursuant to the terms and conditions of this Agreement.  As used in this Agreement, the term "Software" means (i) the actual copy of all or any portion of code for program routines made accessible to Licensee by Licensor pursuant to this Agreement, inclusive of backups, updates, and/or merged copies permitted hereunder or subsequently supplied by Licensor,  including all or any file structures, programming instructions, user interfaces and screen formats and sequences as well as any and all documentation and instructions related to it, and (ii) all or any derivatives and/or modifications created or made by You to any of the items specified in (i).
+1.	SOFTWARE:  GTRC has designed and developed proprietary software including documentation entitled “eye-contact-cnn” which is the subject of GTRC Software Disclosure Number 8450, “Method for Detecting Eye Contact in Egocentric Video” and provides a deep convolutional neural network model trained to detect moments of eye contact in egocentric view (hereinafter “Software”).
 
-CONFIDENTIALITY: Licensee acknowledges that the Software is proprietary to Licensor, and as such, Licensee agrees to receive all such materials in confidence and use the Software only in accordance with the terms of this Agreement.  Licensee agrees to use reasonable effort to protect the Software from unauthorized use, reproduction, distribution, or publication.
+2.	RESERVATION OF OWNERSHIP AND GRANT OF LICENSE:  GTRC retains exclusive ownership of any copy of the Software licensed under this Agreement and hereby grants to Licensee a personal, non-exclusive, non-transferable license to use the Software for noncommercial research purposes, without the right to sublicense, pursuant to the terms and conditions of this Agreement.  As used in this Agreement, the term “Software” means (i) the actual copy of all or any portion of code for program routines made accessible to Licensee by GTRC pursuant to this Agreement, inclusive of backups, updates, and/or merged copies permitted hereunder or subsequently supplied by GTRC,  including all or any file structures, programming instructions, user interfaces and screen formats and sequences as well as any and all documentation and instructions related to it, and (ii) all or any derivatives and/or modifications created or made by Licensee to any of the items specified in (i).
 
-COPYRIGHT: The Software is owned by Licensor and is protected by United 
-States copyright laws and applicable international treaties and/or conventions.
+3.	CONFIDENTIALITY:  Licensee acknowledges that the Software is proprietary to GTRC, and as such, Licensee agrees to receive all such materials in confidence and use the Software only in accordance with the terms of this Agreement.  Licensee agrees to use reasonable effort to protect the Software from unauthorized use, reproduction, distribution, or publication.
 
-PERMITTED USES:  The Software may be used for your own noncommercial internal research purposes. You understand and agree that Licensor is not obligated to implement any suggestions and/or feedback you might provide regarding the Software, but to the extent Licensor does so, you are not entitled to any compensation related thereto.
+4.	COPYRIGHT:  The Software is owned by GTRC and is protected by United States copyright laws and applicable international treaties and/or conventions.
 
-DERIVATIVES: You may create derivatives of or make modifications to the Software, however, You agree that all and any such derivatives and modifications will be owned by Licensor and become a part of the Software licensed to You under this Agreement.  You may only use such derivatives and modifications for your own noncommercial internal research purposes, and you may not otherwise use, distribute or copy such derivatives and modifications in violation of this Agreement.
+5.	PERMITTED USES:  The Software may be used for Licensee’s own noncommercial internal research purposes. You understand and agree that GTRC is not obligated to implement any suggestions and/or feedback You might provide regarding the Software, but to the extent GTRC does so, You are not entitled to any compensation related thereto.
 
-BACKUPS:  If Licensee is an organization, it may make that number of copies of the Software necessary for internal noncommercial use at a single site within its organization provided that all information appearing in or on the original labels, including the copyright and trademark notices are copied onto the labels of the copies.
+6.	DERIVATIVES:  Licensee may create derivatives of or make modifications to the Software, however, Licensee agrees that all and any such derivatives and modifications will be owned by GTRC and become a part of the Software licensed under this Agreement.  Licensee may only use such derivatives and modifications for Licensee’s own noncommercial internal research purposes, and Licensee may not otherwise use, distribute or copy such derivatives and modifications in violation of this Agreement.
 
-USES NOT PERMITTED:  You may not distribute, copy or use the Software except as explicitly permitted herein. Licensee has not been granted any trademark license as part of this Agreement and may not use the name or mark "Georgia Tech" or any renditions thereof without the prior written permission of Licensor.
+7.	BACKUPS:   If Licensee is an organization, Licensee may make that number of copies of the Software necessary for internal noncommercial use at a single site within its organization provided that all information appearing in or on the original labels, including the copyright and trademark notices are copied onto the labels of the copies.
 
-You may not sell, rent, lease, sublicense, lend, time-share or transfer, in whole or in part, or provide third parties access to prior or present versions (or any parts thereof) of the Software.
+8.	USES NOT PERMITTED:   Licensee may not distribute, copy or use the Software except as explicitly permitted herein.  Licensee has not been granted any trademark license as part of this Agreement and may not use the name or mark “Georgia Tech”, “Georgia Tech Research Corporation” or any renditions thereof without the prior written permission of GTRC.  Licensee may not sell, rent, lease, sublicense, lend, time-share or transfer, in whole or in part, or provide third parties access to prior or present versions (or any parts thereof) of the Software.
 
-ASSIGNMENT: You may not assign this Agreement or your rights hereunder without the prior written consent of Licensor. Any attempted assignment without such consent shall be null and void.
+9.	ASSIGNMENT:  Licensee may not assign this Agreement or its rights hereunder without the prior written consent of GTRC.  Any attempted assignment without such consent shall be null and void.
 
-TERM: The term of the license granted by this Agreement is from Licensee's acceptance of this Agreement by downloading the Software or by using the Software until terminated as provided below.
+10.	TERM:  The term of the license granted by this Agreement is from Licensee's acceptance of this Agreement by downloading the Software or by using the Software until terminated as provided below.
 
-The Agreement automatically terminates without notice if you fail to comply with any provision of this Agreement.  Licensee may terminate this Agreement by ceasing using the Software.  Upon any termination of this Agreement, Licensee will delete any and all copies of the Software. You agree that all provisions which operate to protect the proprietary rights of Licensor shall remain in force should breach occur and that the obligation of confidentiality described in this Agreement is binding in perpetuity and, as such, survives the term of the Agreement.
+11.	TERMINATION:  GTRC shall have the right to terminate this Agreement without cause at any time.  The Agreement automatically terminates without notice if Licensee fails to comply with any provision of this Agreement.  Licensee may terminate this Agreement by ceasing using the Software.  Upon any termination of this Agreement, Licensee will delete any and all copies of the Software.  Licensee agrees that all provisions which operate to protect the proprietary rights of GTRC shall remain in force should breach occur and that the obligation of confidentiality described in this Agreement is binding in perpetuity and, as such, survives the term of the Agreement.
 
-FEE: Provided Licensee abides completely by the terms and conditions of this Agreement, there is no fee due to Licensor for Licensee's use of the Software in accordance with this Agreement.
+12.	FEE:  Provided Licensee abides completely by the terms and conditions of this Agreement, there is no fee due to GTRC for Licensee's use of the Software in accordance with this Agreement.
 
-DISCLAIMER OF WARRANTIES:  THE SOFTWARE IS PROVIDED "AS-IS" WITHOUT WARRANTY OF ANY KIND INCLUDING ANY WARRANTIES OF PERFORMANCE OR MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE OR PURPOSE OR OF NON-INFRINGEMENT.  LICENSEE BEARS ALL RISK RELATING TO QUALITY AND PERFORMANCE OF THE SOFTWARE AND RELATED MATERIALS.
+13.	DISCLAIMER OF WARRANTIES:   LICENSEE ACCEPTS THE PROGRAM ON AN “AS IS” BASIS.  GTRC MAKES NO REPRESENTATION OR WARRANTY THAT THE PROGRAM WILL BE ACCESSIBLE OR DOWNLOADABLE.  GTRC MAKES NO WARRANTY THAT ALL ERRORS CAN BE OR HAVE BEEN ELIMINATED FROM THE PROGRAM. GTRC SHALL NOT BE RESPONSIBLE FOR LOSSES OF ANY KIND RESULTING FROM THE USE OF THE PROGRAM AND ITS ACCOMPANYING DOCUMENT, AND CAN IN NO WAY PROVIDE COMPENSATION FOR ANY LOSSES SUSTAINED, INCLUDING BUT NOT LIMITED TO ANY OBLIGATION, LIABILITY, RIGHT, CLAIM OR REMEDY FOR TORT, OR FOR ANY ACTUAL OR ALLEGED INFRINGEMENT OF PATENTS, COPYRIGHTS, TRADE SECRETS, OR SIMILAR RIGHTS OF THIRD PARTIES, NOR ANY BUSINESS EXPENSE, MACHINE DOWNTIME OR DAMAGES CAUSED USER BY ANY DEFICIENCY, DEFECT OR ERROR IN THE PROGRAM OR MALFUNCTION THEREOF, NOR ANY INCIDENTAL OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED. GTRC DISCLAIMS ALL WARRANTIES, BOTH EXPRESS AND IMPLIED RESPECTING THE USE AND OPERATION OF THE PROGRAM AND ITS ACCOMPANYING DOCUMENTATION, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR PARTICULAR PURPOSE AND ANY IMPLIED WARRANTY ARISING FROM COURSE OF PERFORMANCE, COURSE OF DEALING OR USAGE OF TRADE.  GTRC MAKES NO WARRANTY THAT THE PROGRAM IS ADEQUATELY OR COMPLETELY DESCRIBED IN, OR BEHAVES IN ACCORDANCE WITH ANY ACCOMPANYING DOCUMENTATION.  THE USER OF THE PROGRAM IS EXPECTED TO MAKE THE FINAL EVALUATION OF THE PROGRAM'S USEFULNESS IN USER'S OWN ENVIRONMENT.
 
-SUPPORT AND MAINTENANCE: No Software support or training by the Licensor is provided as part of this Agreement.  
+14.	SUPPORT AND MAINTENANCE:  No Software support or training by the GTRC is provided as part of this Agreement. GTRC shall have no obligation to provide error corrections and updates or any other modifications to the Software.
 
-EXCLUSIVE REMEDY AND LIMITATION OF LIABILITY: To the maximum extent permitted under applicable law, Licensor shall not be liable for direct, indirect, special, incidental, or consequential damages or lost profits related to Licensee's use of and/or inability to use the Software, even if Licensor is advised of the possibility of such damage.
+15.	EXPORT REGULATION:  Licensee shall not export the Software or any portion thereof without fully and completely complying with any and all United States export or munitions control regulations and laws.  Furthermore, it is the sole responsibility of the Licensee to obtain any and all such required approval documentation from the United States government.
 
-EXPORT REGULATION: Licensee agrees to comply with any and all applicable 
-U.S. export control laws, regulations, and/or other laws related to embargoes and sanction programs administered by the Office of Foreign Assets Control.
+16.	SEVERABILITY:  If any provision(s) of this Agreement shall be held to be invalid, illegal, or unenforceable by a court or other tribunal of competent jurisdiction, the validity, legality and enforceability of the remaining provisions shall not in any way be affected or impaired thereby.
 
-SEVERABILITY: If any provision(s) of this Agreement shall be held to be invalid, illegal, or unenforceable by a court or other tribunal of competent jurisdiction, the validity, legality and enforceability of the remaining provisions shall not in any way be affected or impaired thereby.
+17.	NO IMPLIED WAIVERS:  No failure or delay by GTRC in enforcing any right or remedy under this Agreement shall be construed as a waiver of any future or other exercise of such right or remedy by GTRC.
 
-NO IMPLIED WAIVERS: No failure or delay by Licensor in enforcing any right or remedy under this Agreement shall be construed as a waiver of any future or other exercise of such right or remedy by Licensor.
+18.	GOVERNING LAW:  All questions concerning the validity, operation, interpretation and construction of this Agreement shall be governed by and determined in accordance with the internal laws of the State of Georgia, United States of America, without regard to the principles of conflicts of law.
 
-ENTIRE AGREEMENT AND AMENDMENTS: This Agreement constitutes the sole and entire agreement between Licensee and Licensor as to the matter set forth herein and supersedes any previous agreements, understandings, and arrangements between the parties relating hereto.
+19.	ENTIRE AGREEMENT AND AMENDMENTS:  This Agreement constitutes the sole and entire agreement between Licensee and GTRC as to the matter set forth herein and supersedes any previous agreements, understandings, and arrangements between the parties relating hereto.
+
+**********************************************************************************
+
+NOTICES AND INFORMATION
+
+Copyright © 2020.  Georgia Tech Research Corporation.  All rights reserved.
+
+This Software references PyTorch functions via their API.  PyTorch project is a Python package that provides GPU accelerated tensor computation and high level functionalities for building deep learning networks. For licensing details, see the PyTorch license doc on GitHub.
+
+***************************END OF NOTICES AND INFORMATION************************
+
