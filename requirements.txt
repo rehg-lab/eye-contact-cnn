@@ -1,0 +1,10 @@
+torch>=2.2.0
+torchvision>=0.17.0
+onnx>=1.15.0
+onnxruntime>=1.17.0
+opencv-python>=4.9.0
+mediapipe>=0.10.0
+numpy>=1.26.0
+Pillow>=10.0.0
+pandas>=2.1.0  # optional
+colour>=0.1.5
